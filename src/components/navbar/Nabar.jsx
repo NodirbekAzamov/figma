@@ -37,14 +37,14 @@ const Nabar = () => {
                             navLink?.map((item, index) => {
                                 return <Link className={item?.id === activeLink ? "border-b-[2px] border-b-[#443085] font-[600] text-black" : ""} key={index} to={item?.path} onClick={() => changeLink(item?.id)}>
                                     {item?.text}
-                                    </Link>
+                                </Link>
                             })
                         }
                     </li>
                     {url === 'buyurtmalarim' &&
-                    <li>
-                        <Link to={""} className='text-black text-capitalize'>{url}</Link>
-                    </li>
+                        <li>
+                            <Link to={""} className='text-black text-capitalize'>{url}</Link>
+                        </li>
                     }
                 </ul>
 

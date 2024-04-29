@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./style.scss"
 import Sidebar from '../../components/Buyurtmalarim/Sidebar/Sidebar'
-import BuyurtmaRoyhat from '../../components/Buyurtmalarim/BuyurtmaRoyhati/BuyurtmaRoyhat'
+import BuyurtmaRoyhat from '../../components/Buyurtmalarim/Qoshish/Qoshish'
 import Statistika from '../../components/Buyurtmalarim/Statistika/Statistika'
 const Buyurtmalarim = () => {
   const [components, setComponents] = useState([

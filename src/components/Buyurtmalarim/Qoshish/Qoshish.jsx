@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.scss"
 import { CiEdit } from 'react-icons/ci'
-const BuyurtmaRoyhat = () => {
+const Qoshish = () => {
     return (
         <div className='buyurtmaRoyhat'>
             <div className='buyurtma_btn'>
@@ -35,43 +35,43 @@ const BuyurtmaRoyhat = () => {
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
                             <td><button className='w-[32px] h-[32px] p-[6px] bg-[#443085] rounded-[5px] text-[19px] text-white'><CiEdit /></button></td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
+                            <td>2</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                             <td><button className='w-[32px] h-[32px] p-[6px] bg-[#443085] rounded-[5px] text-[19px] text-white'><CiEdit /></button></td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                             <td><button className='w-[32px] h-[32px] p-[6px] bg-[#443085] rounded-[5px] text-[19px] text-white'><CiEdit /></button></td>
                         </tr>
                         <tr>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
+                            <td>4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                             <td><button className='w-[32px] h-[32px] p-[6px] bg-[#443085] rounded-[5px] text-[19px] text-white'><CiEdit /></button></td>
                         </tr>
                         <tr>
                             <td>#</td>
                             <td>Jami</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
-                            <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -80,4 +80,4 @@ const BuyurtmaRoyhat = () => {
     )
 }
 
-export default BuyurtmaRoyhat
+export default Qoshish

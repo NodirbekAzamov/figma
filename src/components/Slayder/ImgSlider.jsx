@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Spark_img from "../../assets/Spark_img.png";
-import Header_bg from "../../assets/Header_bg.png";
+import Header_bg from "../../assets/header_bg.png";
 
 const ImgSlider = () => {
   const settings = {

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.asosiybolim {
+    width: 100%;
+    height: 90vh;
+    padding: 80px 80px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+
+    .spark_img {
+        width: 600px;
+        height: 600px;
+        top: -50px;
+        left: 150px;
+        position: absolute;
+        // border: 1px solid #000;
+    }
+
+    .header_bg {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .asosiy_text {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid #000;
+        justify-content: space-between;
+        align-items: flex-end;
+        max-width: 760px;
+    }
+
+    h6 {
+        line-height: 55px;
+        font-size: 50px;
+        font-weight: 500;
+        width: 85%;
+    }
+
+    .asosiy_bnt {
+        border-radius: 5px;
+        padding: 5px 30px;
+        background: rgb(70, 25, 121);
+        color: #fff;
+        font-size: 18px;
+    }
+}

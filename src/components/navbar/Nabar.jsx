@@ -8,13 +8,13 @@ const Nabar = () => {
     return (
         // <div className=' w-full'>
         <div className='navbar'>
-            <h2 className='navbar_logo'>Logo</h2>
+            <h2  className='navbar_logo'>Logo</h2>
             <div className='navbar_link '>
                 <ul className='navbar_ul'>
                     <li>
                         <Link to="/">Asosiy Bo'lim</Link>
                         <Link to="/aboutUs">Biz haqimizda</Link>
-                        <Link to="/product">Muhsulot kategoryasi</Link>
+                        <Link to="/mijonUchun">Muhsulot kategoryasi</Link>
                         <Link to="/aloqa">Aloqa</Link>
                     </li>
                 </ul>
@@ -23,7 +23,7 @@ const Nabar = () => {
                     <input type="text" placeholder='Qidiruv...' />
                 </div>
                 <HiOutlineUserCircle className=' text-[30px]' />
-                <SlBasket className=' text-[26px]' />
+                <Link to="/buyurtmalarim"><SlBasket className=' text-[26px] ' /></Link>
             </div>
         </div>
         // </div>

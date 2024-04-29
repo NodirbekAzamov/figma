@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import Nabar from './components/navbar/Nabar'
 import { Route, Routes } from 'react-router-dom'
-// import Aloqa from './components/Aloqa/Aloqa'
 import AboutUs from "./components/AboutUs/AboutUs"
-import Product from './components/product/Product'
-import Choynak from './components/product/Mahsulot/choynak/Choynak'
-import AsosiyBolim from './components/AsasiyBolim/AsosiyBolim'
+import AsosiyBolim from './pages/AsasiyBolim/AsosiyBolim'
 import SinglePage from './components/product/SinglePage'
 import Footer from "./components/footer/footer"
+import Aloqa from './components/Aloqa/Aloqa'
+import MijonUchun from './pages/MijozUchun/MijonUchun'
+import Buyurtmalarim from './pages/Buyurtmalarim/Buyurtmalarim'
 export default function App() {
 
   return (
@@ -16,13 +16,12 @@ export default function App() {
         <Nabar />
       </div>
       <Routes>
-
         <Route path='/' element={<AsosiyBolim />} />
         <Route path='aboutUs' element={<AboutUs />} />
-        <Route path='product' element={<Product />} />
-        <Route path='/' element={<Choynak />} />
+        <Route path='mijonUchun' element={<MijonUchun />} />
+        <Route path='aloqa' element={<Aloqa />} />
         <Route path='singlePage/:id' element={<SinglePage />} />
-        {/* <Route path='footer' element={<Footer />} /> */}
+        <Route path='buyurtmalarim' element={<Buyurtmalarim/>}/>
       </Routes>
       <Footer />
     </div>

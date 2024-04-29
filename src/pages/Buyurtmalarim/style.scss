@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.buyurtmalarim {
+    display: flex;
+    align-items: start;
+    gap: 25px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 50px;
+    .sidebar {
+        max-width: 250px;
+        height: 100%;
+        // border:  1px solid #000;
+    }
+    .buyurtmaRoyhat {
+        width: 100%;
+        height: 100%;
+        // border: 1px solid #000;
+    }
+}

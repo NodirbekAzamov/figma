@@ -1,4 +1,6 @@
 import React from 'react'
+import InputMask from "react-input-mask";
+
 import "./aloqa.scss"
 const Aloqa = () => {
     return (
@@ -8,6 +10,7 @@ const Aloqa = () => {
                 <div className='aloqa_box'>
                     <label htmlFor="">Ism familiya</label>
                     <input type="text" />
+                    
                 </div>
                 <div className='aloqa_box'>
                     <label htmlFor="">Telifon nomer</label>
@@ -23,7 +26,8 @@ const Aloqa = () => {
                 </div>
                 <div className='aloqa_box'>
                     <label htmlFor="">Karta nomer</label>
-                    <input type="text" placeholder='0000 0000 0000 0000'/>
+                    {/* <input type="text" placeholder='0000 0000 0000 0000'/> */}
+                    <InputMask mask="9999 9999 9999 9999"  alwaysShowMask={true}/>
                 </div>
             </div>
         </div>

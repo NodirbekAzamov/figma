@@ -3,7 +3,7 @@ import "./aloqa.scss"
 const Aloqa = () => {
     return (
         <div className='aloqa'>
-            <h2>Mijon Uchun</h2>
+            <h2>Mijoz Uchun</h2>
             <div className='aloqa_boxes'>
                 <div className='aloqa_box'>
                     <label htmlFor="">Ism familiya</label>

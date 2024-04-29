@@ -5,6 +5,10 @@
     text-decoration: none !important;
 }
 
+.none {
+    display: none !important;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -13,6 +17,8 @@
     .navbar_logo {
         color: rgb(70, 25, 121);
         font-weight: 700;
+        font-size: 28px;
+        text-transform: uppercase;
     }
     .navbar_link {
         display: flex;

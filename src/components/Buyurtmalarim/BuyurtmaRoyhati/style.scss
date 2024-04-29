@@ -33,18 +33,74 @@
         height: 100%;
         margin: 20px 0;
         width: 100%;
+        border: 1px solid rgba(99, 95, 95, 0.39);
+        padding: 10px;
+        border-radius: 10px;
         table {
             width: 100%;
+            border-collapse: collapse;
             tr {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 th {
                     select {
-                        border: 1px solid #000;
+                        border: 1px solid rgba(99, 95, 95, 0.39);
                         width: 180px;
                         padding: 8px 0;
                         border-radius: 8px;
+                        width: 100%;
+                    }
+                    padding: 11px;
+                }
+                th:nth-child(1), :nth-child(6) {
+                    width: 15%;
+                }
+                th:nth-child(2) {
+                    width: 60%;
+                }
+                th:nth-child(3) {
+                    width: 60%;
+                }
+                th:nth-child(4) {
+                    width: 80%;
+                }
+                th:nth-child(5) {
+                    width: 90%;
+                }
+            }
+            tbody {
+                border: 1px solid rgba(99, 95, 95, 0.39);
+                td {
+                    border: 1px solid rgba(99, 95, 95, 0.39);
+                    width: 100%;
+                    padding: 12px 8px 16px;
+                    height: 50px;
+                }
+                td:nth-child(1) {
+                    width: 15%;
+                }
+                td:nth-child(2) {
+                    width: 60%;
+                }
+                td:nth-child(3) {
+                    width: 60%;
+                }
+                td:nth-child(4) {
+                    width: 80%;
+                }
+                td:nth-child(5) {
+                    width: 90%;
+                }
+                td:nth-child(6) {
+                    width: 15%;
+                    padding: 8px 8px 12px;
+                    display: flex;
+                    justify-content: center;
+                }
+                tr:last-child {
+                    td {
+                        height: 150px;
                     }
                 }
             }

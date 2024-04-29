@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from '../../components/product/Product'
+import Product from '../../pages/product/Product'
 
 const MijonUchun = () => {
     return (

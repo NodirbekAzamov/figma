@@ -3,13 +3,12 @@ import Nabar from './components/navbar/Nabar'
 import { Route, Routes } from 'react-router-dom'
 import AboutUs from "./components/AboutUs/AboutUs"
 import AsosiyBolim from './pages/AsasiyBolim/AsosiyBolim'
-import SinglePage from './components/product/SinglePage'
+import SinglePage from './pages/product/SinglePage'
 import Footer from "./components/footer/footer"
-import Aloqa from './components/Aloqa/Aloqa'
+import Aloqa from './pages/Aloqa/Aloqa'
 import MijonUchun from './pages/MijozUchun/MijonUchun'
 import Buyurtmalarim from './pages/Buyurtmalarim/Buyurtmalarim'
 export default function App() {
-
   return (
     <div>
       <div>

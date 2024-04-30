@@ -149,7 +149,6 @@ button.slick-arrow.slick-prev {
         .asosiy_text {
             display: flex;
             align-items: center;
-            border: 1px solid #ccc;
             height: 100%;
             width: 100%;
 
@@ -161,6 +160,41 @@ button.slick-arrow.slick-prev {
 
             .asosiy_bnt {
                 margin-bottom: 30px;
+            }
+        }
+
+
+    }
+}
+
+@media (min-width: 447px) and (max-width: 768px) {
+    .asosiybolim {
+        padding: 20px;
+
+        .spark_img {
+            max-width: 500px;
+            max-height: 500px;
+            left: 0;
+            top: 0px;
+        }
+
+        .asosiy_text {
+            display: flex;
+            align-items: start;
+            // justify-content: start;
+            height: 100%;
+            width: 100%;
+            padding-left: 20px;
+
+            h6 {
+                font-size: 25px;
+                line-height: 35px;
+                max-width: 300px;
+            }
+
+            .asosiy_bnt {
+                margin-bottom: 30px;
+
             }
         }
 

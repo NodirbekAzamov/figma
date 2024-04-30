@@ -88,7 +88,6 @@
                 span {
                     color: #fff;
                     font-size: 20px;
-                    // background-color: #fff;
                 }
             }
         }
@@ -135,9 +134,11 @@
             width: 100%;
             display: flex;
             flex-wrap: wrap;
+
             .footer_left {
                 width: 100%;
                 display: flex;
+
                 .footer_logo {
                     h1 {
                         font-size: 16px;
@@ -160,6 +161,7 @@
 
             .footer_right {
                 width: 100%;
+
                 h2 {
                     font-size: 16px;
                 }
@@ -169,8 +171,74 @@
         .icon {
             .footer_icon {
                 gap: 15px;
+
                 span {
                     font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 447px) and (max-width: 768px) {
+    .footer {
+        padding: 20px;
+        display: flex !important;
+        flex-wrap: wrap;
+
+        .footer_menu {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .footer_left {
+                width: 100%;
+                display: flex;
+
+                .footer_logo {
+                    h1 {
+                        font-size: 20px;
+                    }
+
+                    h6 {
+                        font-size: 16px;
+                    }
+                }
+
+                ul {
+                    li {
+                        a {
+                            font-size: 16px;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+
+            .footer_right {
+                align-items: start;
+                width: 100%;
+
+                .footer_boxes {
+                    .footer_box {
+                        p {
+                            max-width: 300px;
+                        }
+                    }
+                }
+
+                h2 {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .icon {
+            .footer_icon {
+                gap: 20px;
+
+                span {
+                    font-size: 25px;
                 }
             }
         }

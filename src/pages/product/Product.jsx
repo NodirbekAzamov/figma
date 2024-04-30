@@ -23,8 +23,10 @@ const Product = () => {
           <span><CiSearch className=' text-[18px] ' /></span>
           <input type="text" placeholder='Qidiruv...' />
         </div>
-        <h6 onClick={changeFiltr}>Filtr <span><SlArrowDown className='text-[10px]' /></span></h6>
-        <span><FaCartArrowDown /></span>
+        <div className="change">
+          <h6 onClick={changeFiltr}>Filtr <span><SlArrowDown className='text-[10px]' /></span></h6>
+          <span><FaCartArrowDown /></span>
+        </div>
         <div className={`${filtr ? "active" : "none"} filtr`}>
           <SidebarCategory />
         </div>

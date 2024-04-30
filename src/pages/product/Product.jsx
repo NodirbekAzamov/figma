@@ -25,7 +25,7 @@ const Product = () => {
         </div>
         <div className="change">
           <h6 onClick={changeFiltr}>Filtr <span><SlArrowDown className='text-[10px]' /></span></h6>
-          <span><FaCartArrowDown /></span>
+          <Link to={"/buyurtmalarim"} className=' text-[26px] '><FaCartArrowDown /></Link>
         </div>
         <div className={`${filtr ? "active" : "none"} filtr`}>
           <SidebarCategory />
@@ -58,7 +58,6 @@ const Product = () => {
                     <Link to={`/singlePage/${item.id}`} className='batafsil'>Batafsil</Link>
                   </div>
                 </div>
-
               </div>
             })
           }

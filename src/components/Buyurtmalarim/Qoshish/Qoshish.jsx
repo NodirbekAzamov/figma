@@ -23,7 +23,6 @@ const Qoshish = () => {
                             <th></th>
                             <th>
                                 <select name="" id="">
-                                    {/* <option value="">ervrsvs</option> */}
                                 </select>
                             </th>
                             <th><select name="" id=""></select></th>

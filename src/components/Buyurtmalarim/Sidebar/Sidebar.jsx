@@ -30,7 +30,7 @@ export default function SidebarCategory() {
         <div className='product_btns'>
             {
                 link.map((item, index) => {
-                    return <Link to="" key={index} onClick={() => activeLink(item.id)} className={id === item.id ? " product_btn-active" : "product_btn"}>{item.icon} <h5> {item.title}</h5></Link>
+                    return <Link to="" key={index} onClick={() => activeLink(item.id)} className={id === item.id ? " product_btn-active " : "product_btn"}>{item.icon} <h5> {item.title}</h5></Link>
                 })
             }
         </div>

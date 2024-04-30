@@ -53,11 +53,11 @@ const Nabar = () => {
                                 })
                             }
                         </li>
-                        {url === 'buyurtmalarim' &&
+                        {/* {url === 'buyurtmalarim' &&
                             <li>
                                 <Link to={""} className='text-black text-capitalize'>{url}</Link>
                             </li>
-                        }
+                        } */}
                     </ul>
 
                     <div className='navbar_search'>

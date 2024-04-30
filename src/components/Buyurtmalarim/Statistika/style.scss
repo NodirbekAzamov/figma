@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.statistika {
+    .statistika_boxes {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        .statistika_box {
+            width: 300px;
+            height: 220px;
+            box-shadow: 1px 3px 2px 2px #bbb9b9;
+            border-radius: 5px;
+            padding: 10px;
+            h6 {
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                font-weight: 500;
+                font-size: 16px;
+            }
+            .statistika_box-chart3 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 50px;
+                padding: 0 5px;
+                .chart_left {
+                    display: flex;
+                    align-items: end;
+                    justify-content: space-between;
+                    gap: 10px;
+                    .bg1 {
+                        width: 20px;
+                        height: 120px;
+                        background: #7B61FF;
+                    }
+
+                    .bg1:nth-child(2) {
+                        width: 20px;
+                        height: 70px;
+                        background: #087828;
+                    }
+                    .bg1:nth-child(3) {
+                        width: 20px;
+                        height: 100px;
+                        background: #635F5F8F;
+                    }
+
+                }
+                .chart_right {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .chart_right-box {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        .chart_bg {
+                            width: 25px;
+                            height: 25px;
+                            background: #443085;
+                        }
+                        h5 {
+                            font-size: 14px;
+                            margin: 0;
+                            max-width: 120px;
+                        }
+                    }
+                }
+            }
+            .statistika_box-chart2 {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 15px;
+                padding: 0 20px;
+                margin-top: 50px;
+                .chart_box {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h6 {
+                        padding: 0;
+                        margin: 0;
+                    }
+                    button {
+                        background: #443085;
+                        color: #fff;
+                        padding: 3px 15px;
+                        border-radius: 3px;
+                    }
+                }
+            }
+
+            .statistika_box-chart {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                
+                .chart_left {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    .chart_left-box {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        p {
+                            font-size: 14px;
+                            padding: 0;
+                            margin: 0;
+                        }
+                        h5 {
+                            font-size: 14px;
+                            background: #CF7534;
+                            padding: 3px;
+                            color: #fff;
+                            // padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+                .chart_right {
+                    img {
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+            }
+        }
+    }
+}

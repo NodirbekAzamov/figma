@@ -46,3 +46,37 @@
         }
     }
 }
+
+@media (max-width: 447px) {
+    .product_btns {
+        .product_btn-active {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 150px;
+            height: 45px;
+            padding: 0 10px;
+    
+            h5 {
+                font-size: 16px;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    
+        .product_btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 150px;
+            height: 45px;
+            padding: 0 10px;
+    
+            h5 {
+                font-size: 16px;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}

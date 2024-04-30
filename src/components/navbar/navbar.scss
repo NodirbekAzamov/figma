@@ -1,4 +1,4 @@
-*{ 
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -14,28 +14,31 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px 80px !important;
+
     .navbar_logo {
         color: rgb(70, 25, 121);
         font-weight: 700;
         font-size: 28px;
         text-transform: uppercase;
     }
+
     .navbar_link {
         display: flex;
         align-items: center;
-        // border: 1px solid #000;
         gap: 35px;
 
         .navbar_ul {
             display: flex;
             align-items: center;
             margin: 0;
+
             li {
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 gap: 50px;
-                a{ 
+
+                a {
                     font-weight: 600;
                     font-size: 18px;
                     color: #626262;
@@ -44,6 +47,7 @@
 
             }
         }
+
         .navbar_search {
             display: flex;
             align-items: center;
@@ -54,11 +58,69 @@
             border-radius: 5px;
             padding: 3px;
             box-shadow: 2px 2px 2px #626262;
+
             input {
                 width: 120%;
                 outline: none;
                 background: transparent;
             }
+        }
+    }
+
+    .span {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+
+@media (max-width: 447px) {
+    .navbar {
+        padding: 10px 20px !important;
+        .navbar_logo {
+            font-size: 18px;
+        }
+        .navbar_link {
+            display: none;
+        }
+        .span {
+            display: block;
+            font-size: 20px;
+        }
+
+        .menu {
+            position: absolute;
+            // border: 1px solid #000;
+            top: 50px;
+            right: 10px;
+            z-index: 2;
+            li {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                background: rgb(255, 255, 255);
+                box-shadow: 0px 1px 1px 1px #dedcdc;
+                padding: 15px 6px;
+                height: 170px;
+                border-radius: 3px;
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    font-size: 14px;
+                    color: #000;
+                }
+            }
+        }
+
+        .menu1 {
+            display: none;
+        }
+
+        .menuActive {
+            display: block;
         }
     }
 }

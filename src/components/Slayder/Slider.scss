@@ -26,7 +26,7 @@
 }
 
 .slick-slide {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .slick-prev,
@@ -71,7 +71,7 @@ button.slick-arrow.slick-prev {
 }
 
 .slick-dots li button:before {
-    border:1px solid white;
+    border: 1px solid white;
     font-size: 12px;
     color: #ECECEC !important;
     background: #ECECEC !important;
@@ -101,7 +101,6 @@ button.slick-arrow.slick-prev {
         top: -50px;
         left: 150px;
         position: absolute;
-        // border: 1px solid #000;
     }
 
     .header_bg {
@@ -115,7 +114,6 @@ button.slick-arrow.slick-prev {
         height: 90%;
         display: flex;
         flex-direction: column;
-        // border: 1px solid #000;
         justify-content: space-between;
         align-items: flex-end;
         max-width: 760px;
@@ -134,5 +132,38 @@ button.slick-arrow.slick-prev {
         background: rgb(70, 25, 121);
         color: #fff;
         font-size: 18px;
+    }
+}
+
+@media (max-width: 447px) {
+    .asosiybolim {
+        padding: 20px;
+
+        .spark_img {
+            max-width: 300px;
+            max-height: 300px;
+            left: 0;
+            top: 100px;
+        }
+
+        .asosiy_text {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            height: 100%;
+            width: 100%;
+
+            h6 {
+                font-size: 20px;
+                line-height: 25px;
+                max-width: 220px;
+            }
+
+            .asosiy_bnt {
+                margin-bottom: 30px;
+            }
+        }
+
+
     }
 }

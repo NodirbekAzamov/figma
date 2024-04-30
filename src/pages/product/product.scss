@@ -131,3 +131,10 @@
         }
     }
 }
+
+@media (max-width: 447px) {
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

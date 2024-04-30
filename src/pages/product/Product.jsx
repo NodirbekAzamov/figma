@@ -10,13 +10,6 @@ import SidebarCategory from './SidebarCategory/SidebarCategory';
 const Product = () => {
   const [count, setCount] = useState(1);
 
-
-
-
-
-  
-  
-
   return (
     <div className='product'>
       <SidebarCategory />

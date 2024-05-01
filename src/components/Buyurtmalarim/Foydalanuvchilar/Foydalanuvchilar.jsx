@@ -3,15 +3,14 @@ import "./style.scss"
 import { CiEdit } from "react-icons/ci";
 import { RiDeleteBinLine } from "react-icons/ri";
 
-// import React from 'react';
 import { Table } from 'antd';
 const columns = [
   {
     title: '#',
     dataIndex: 'id',
     sorter: {
-      compare: (a, b) => a.math - b.math,
-      multiple: 4,
+      compare: (a, b) => a.id - b.id,
+      multiple: 5,
     },
   },
   {
@@ -19,7 +18,7 @@ const columns = [
     dataIndex: 'users ',
     sorter: {
       compare: (a, b) => a.users - b.users,
-      multiple: 3,
+      multiple: 4,
     },
   },
   {
@@ -27,7 +26,7 @@ const columns = [
     dataIndex: 'lavozim',
     sorter: {
       compare: (a, b) => a.lavozim - b.lavozim,
-      multiple: 2,
+      multiple: 3,
     },
   },
   {
@@ -35,7 +34,7 @@ const columns = [
     dataIndex: 'telifon',
     sorter: {
       compare: (a, b) => a.telifon - b.telifon,
-      multiple: 1,
+      multiple: 2,
     },
   },
   {
@@ -85,6 +84,8 @@ const data = [
     // action: [<CiEdit className='text-[30px] p-[5px] d-inline w-[30px] h-[30px] rounded-[3px] bg-[#443085] text-[#fff]'/> ,  <RiDeleteBinLine className='text-[20px] d-inline p-[5px] rounded-[3px] bg-[#443085] w-[30px] h-[30px] text-[red]'/>] 
   },
 ];
+
+
 const onChange = (pagination, filters, sorter, extra) => {
   console.log('params', pagination, filters, sorter, extra);
 };

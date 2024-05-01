@@ -15,7 +15,7 @@ const columns = [
   },
   {
     title: ' Foydalanuvchi nomi',
-    dataIndex: 'users ',
+    dataIndex: 'users',
     sorter: {
       compare: (a, b) => a.users - b.users,
       multiple: 4,
@@ -46,6 +46,7 @@ const columns = [
     },
   },
 ];
+
 const data = [
   {
     key: '1',
@@ -84,7 +85,6 @@ const data = [
     // action: [<CiEdit className='text-[30px] p-[5px] d-inline w-[30px] h-[30px] rounded-[3px] bg-[#443085] text-[#fff]'/> ,  <RiDeleteBinLine className='text-[20px] d-inline p-[5px] rounded-[3px] bg-[#443085] w-[30px] h-[30px] text-[red]'/>] 
   },
 ];
-
 
 const onChange = (pagination, filters, sorter, extra) => {
   console.log('params', pagination, filters, sorter, extra);

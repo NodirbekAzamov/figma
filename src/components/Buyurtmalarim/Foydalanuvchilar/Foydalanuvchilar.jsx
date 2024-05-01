@@ -10,7 +10,7 @@ const columns = [
     dataIndex: 'id',
     sorter: {
       compare: (a, b) => a.id - b.id,
-      multiple: 5,
+      multiple: 1,
     },
   },
   {
@@ -18,7 +18,7 @@ const columns = [
     dataIndex: 'users',
     sorter: {
       compare: (a, b) => a.users - b.users,
-      multiple: 4,
+      multiple: 2,
     },
   },
   {
@@ -34,7 +34,7 @@ const columns = [
     dataIndex: 'telifon',
     sorter: {
       compare: (a, b) => a.telifon - b.telifon,
-      multiple: 2,
+      multiple: 4,
     },
   },
   {
@@ -42,7 +42,7 @@ const columns = [
     dataIndex: 'action',
     sorter: {
       compare: (a, b) => a.action - b.action,
-      multiple: 1,
+      multiple: 5,
     },
   },
 ];
